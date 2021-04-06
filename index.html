@@ -50,8 +50,6 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research & Projects</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing.
-                Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images.
                 Projects with publications are <span class="highlight">highlighted</span>.
               </p>
             </td>
@@ -126,7 +124,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Learning Natural Driver Control Motion Primitivesfor Computational Human Driver Modeling</papertitle>
+              <papertitle>Learning Natural Driver Control Motion Primitives for Computational Human Driver Modeling</papertitle>
               <br>
               <em>In internal review</em>
               <br>
@@ -309,6 +307,45 @@
               <p></p>
               <p>To investigate the effects of human force anticipation, 
                 we conducted an experimental load-pushing task with diverse combinations of informed and actual loading weights.</p>
+            </td>
+
+          
+          <!-- MP learning 1 publication -->
+          <tr onmouseout="nerfbake_stop()" onmouseover="nerfbake_start()" bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <!-- <div class="two" id='nerfbake_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/nerfbake_15.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div> -->
+                <img src='images/driver_learning.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerfbake_start() {
+                  document.getElementById('nerfbake_image').style.opacity = "1";
+                }
+
+                function nerfbake_stop() {
+                  document.getElementById('nerfbake_image').style.opacity = "0";
+                }
+                nerfbake_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Learning Coordinated Vehicle Maneuver Motion Primitives from Human Demonstration</papertitle>
+              <br>
+              <em>IROS</em>, 2018
+              <br>
+              <!-- <a href="http://nerf.live">project page</a> -->
+              <!-- / -->
+              <a href="https://users.wpi.edu/~zli11/papers/C2018_IROS_Mbanisi_DriverMotionPrimitive.pdf">paper</a>
+              /
+              <a href="https://kenembanisi.github.io/">video</a>
+              <!-- /
+              <a href="https://kenembanisi.github.io/">code</a> -->
+              <p></p>
+              <p>We propose an integrated human-vehicle interaction simulation framework which learns vehicle 
+                maneuver motion primitives from human drivers, and uses them to compose natural and contextual driving motions.</p>
             </td>
 
 
